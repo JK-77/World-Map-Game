@@ -21,9 +21,9 @@
 ## ✨ Demo
 
 <p align="center">
-  <img src="images/pass100.gif" width="400" alt="Perfect Score Animation"/>
+  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="400" alt="Animated World Map"/>
   <br/>
-  <img src="assets/map.png" width="400" alt="Game Map Screenshot"/>
+  <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" width="400" alt="World Map Unsplash"/>
 </p>
 
 ---
@@ -49,7 +49,7 @@
 4. **View your results** and try to beat your high score!
 
 <p align="center">
-  <img src="images/50pass.gif" width="300" alt="Medium Score Animation"/>
+  <img src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif" width="300" alt="Celebration Animation"/>
 </p>
 
 ---
@@ -80,6 +80,7 @@
 - Developed with ☕ by **Jayesh Kriplani**
 - Map image, GIFs, and audio by project contributors
 - Icons by [Icons8](https://icons8.com/)
+- Banner and demo GIFs from [Giphy](https://giphy.com/) and [Unsplash](https://unsplash.com/)
 
 ---
 
@@ -90,8 +91,7 @@ This project is for educational and personal use. Feel free to fork and enhance!
 ---
 
 <p align="center">
-  <img src="images/fail.gif" width="200" alt="Try Again Animation"/>
+  <img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" width="200" alt="Try Again Animation"/>
   <br/>
   <b>Ready to challenge your world knowledge? <br/> Give it a ⭐ if you enjoy!</b>
 </p>
-****
