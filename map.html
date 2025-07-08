@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+  <head>
+    <link rel="stylesheet" href="./css/map_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/scripts-map.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/3.0.2/tsparticles.bundle.min.js"
+      integrity="sha512-MM4W2ywPFL6GyTpBoj7PU6nyv2jJg47rLI8kEAL8vk20RHtAqIe9KdweahKUk+OivrdpZoMYfMi271ZdS6tRnQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <body onload="initializeFirstQuestion()">
+    <div class="container py-3" id="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card border-0 text-center bg-transparent">
+            <div class="card-body bg-transparent">
+              <h2
+                class="card-title mb-4 text-white animate"
+                id="question-header"
+              ></h2>
+              <p
+                class="card-text text-success animate fw-bold fs-5"
+                id="answer-status"
+                style="justify-content: center; align-items: center"
+              >Success</p>
+              <div class="map-container mb-3 bg-transparent pt-0">
+                <img src="./assets/map.png" usemap="#image-map" />
+                <map name="image-map">
+                  <area
+                    title="North America"
+                    id="North America"
+                    href=""
+                    coords="177,213,154,193,163,183,189,171,221,143,205,115,205,94,183,70,195,64,223,71,233,106,247,117,261,97,287,90,294,47,217,43,137,53,104,79,79,93,37,87,37,114,61,117,87,117,106,161,129,191,145,202"
+                    shape="poly"
+                  />
+                  <area
+                    title="Australia"
+                    id="Australia"
+                    href=""
+                    coords="571,311,548,294,517,295,516,264,545,254,564,254,585,276,629,297,611,318"
+                    shape="poly"
+                  />
+                  <area
+                    title="South America"
+                    id="South America"
+                    href=""
+                    coords="203,338,189,323,197,268,183,237,193,215,219,221,253,241,259,249,249,265,238,274,215,303"
+                    shape="poly"
+                  />
+                  <area
+                    title="Africa"
+                    id="Africa"
+                    href=""
+                    coords="361,297,343,273,341,251,330,224,306,229,290,204,305,175,336,167,341,177,360,177,381,183,392,211,406,216,389,232,389,255,377,273,370,285,367,293"
+                    shape="poly"
+                  />
+                  <area
+                    title="Asia"
+                    id="Asia"
+                    href=""
+                    coords="403,213,436,193,455,222,458,207,472,195,491,211,487,235,517,248,563,249,593,249,549,231,527,231,535,207,502,211,502,197,530,181,524,163,543,177,567,154,595,129,638,99,573,87,531,79,491,65,457,85,457,135,391,192,393,204"
+                    shape="poly"
+                  />
+                  <area
+                    title="Europe"
+                    id="Europe"
+                    href=""
+                    coords="305,163,317,154,303,135,315,121,326,135,350,127,359,111,340,122,329,116,341,99,361,87,387,93,405,99,427,91,451,93,453,135,408,169"
+                    shape="poly"
+                  />
+                </map>
+              </div>
+              <a
+                href=""
+                class="btn btn-div text-white"
+                id="next-question-button"
+                onclick="setNextQuestion(event)"
+                >Next Question</a
+              >
+              <!-- Modal starts here -->
+              <div
+                class="modal fade"
+                id="resultModal"
+                tabindex="-1"
+                aria-labelledby="resultModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" id="modal-div">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="resultModalLabel">
+                        Modal title
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div
+                      style="font-size: 30px; font-style: italic"
+                      class="modal-body"
+                      id="modal-body"
+                    ></div>
+                    <div
+                      style="font-size: 30px; font-style: italic"
+                      class="modal-highScore"
+                      id="modal-highScore"
+                    ></div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <a type="button" class="btn btn-primary" href="index.html">
+                        Try Again
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
