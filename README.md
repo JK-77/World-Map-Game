@@ -1,12 +1,12 @@
 <!-- Banner with animated globe and title -->
 <p align="center">
-  <img src="https://img.icons8.com/color/96/000000/globe--v2.gif" width="80"/>
+  <img src="https://img.icons8.com/clouds/200/000000/globe.png" width="120"/>
 </p>
 
 <h1 align="center">🌍 World Map Game 🎮</h1>
 
 <p align="center">
-  <b>Test your geography skills in a fun, interactive, and visually stunning map quiz game!</b>
+  <b>Challenge your geography skills with this interactive, animated, and fun world map quiz game!</b>
 </p>
 
 <p align="center">
@@ -21,35 +21,35 @@
 ## ✨ Demo
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="400" alt="Animated World Map"/>
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="400" alt="Animated World Map"/>
   <br/>
-  <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" width="400" alt="World Map Unsplash"/>
+  <img src="https://img.icons8.com/color/480/000000/world-map.png" width="400" alt="World Map Icon"/>
 </p>
 
 ---
 
 ## 🕹️ Features
 
-- 🌐 Interactive world map with clickable continents
-- 🎯 Randomized geography questions
-- 🏆 Animated results and celebratory effects (GIFs, fireworks, sounds)
-- 🔊 Audio feedback for correct and wrong answers
-- 📝 Customizable number of questions
-- 🎨 Modern, responsive UI with Bootstrap and custom CSS
-- 💾 High score tracking (local storage)
-- 🎥 Video background for immersive experience
+- <img src="https://img.icons8.com/color/24/000000/world-map.png" width="20"/> Interactive world map with clickable continents
+- <img src="https://img.icons8.com/color/24/000000/question-mark.png" width="20"/> Randomized geography questions
+- <img src="https://img.icons8.com/color/24/000000/confetti.png" width="20"/> Animated results and celebratory effects (fireworks, confetti, sounds)
+- <img src="https://img.icons8.com/color/24/000000/speaker.png" width="20"/> Audio feedback for correct and wrong answers
+- <img src="https://img.icons8.com/color/24/000000/list.png" width="20"/> Customizable number of questions
+- <img src="https://img.icons8.com/color/24/000000/paint-palette.png" width="20"/> Modern, responsive UI with Bootstrap and custom CSS
+- <img src="https://img.icons8.com/color/24/000000/trophy.png" width="20"/> High score tracking (local storage)
+- <img src="https://img.icons8.com/color/24/000000/video.png" width="20"/> Video background for immersive experience
 
 ---
 
 ## 🚀 How to Play
 
-1. **Enter your name** and select the number of questions.
-2. **Start the game** and answer by clicking on the correct continent.
-3. **Get instant feedback** with sounds and animations.
-4. **View your results** and try to beat your high score!
+1. <b>Enter your name</b> and select the number of questions.
+2. <b>Start the game</b> and answer by clicking on the correct continent.
+3. <b>Get instant feedback</b> with sounds and animations.
+4. <b>View your results</b> and try to beat your high score!
 
 <p align="center">
-  <img src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif" width="300" alt="Celebration Animation"/>
+  <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="300" alt="Confetti Celebration"/>
 </p>
 
 ---
@@ -80,7 +80,7 @@
 - Developed with ☕ by **Jayesh Kriplani**
 - Map image, GIFs, and audio by project contributors
 - Icons by [Icons8](https://icons8.com/)
-- Banner and demo GIFs from [Giphy](https://giphy.com/) and [Unsplash](https://unsplash.com/)
+- Banner and demo GIFs from [Giphy](https://giphy.com/) and [Icons8](https://icons8.com/)
 
 ---
 
@@ -91,7 +91,7 @@ This project is for educational and personal use. Feel free to fork and enhance!
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" width="200" alt="Try Again Animation"/>
+  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="200" alt="Fireworks Celebration"/>
   <br/>
-  <b>Ready to challenge your world knowledge? <br/> Give it a ⭐ if you enjoy!</b>
+  <b>Think you know the world? <br/> Give it a ⭐ if you enjoy!</b>
 </p>
